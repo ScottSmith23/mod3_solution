@@ -4,30 +4,74 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Responsive Layout</title>
+    <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    
   </head>
 <body>
-  <div class="heading">
-  <h1 >Our Menu</h1>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right visible-xs menu-items-nav text-center">
+              <li><a href="#first">Chicken</a></li>
+              <li><a href="#second">Beef</a></li>
+              <li><a href="#third">Sushi</a></li>
+      </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div>
+  <h1 class="text-center">Our Menu</h1>
   </div>
   <div class="container">
-  <div class="content col-md-1">
+  <div id="first" class="content item-1">
     <div class="box">
       <div class="title title-1">Chicken</div>
-      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dolor a leo ullamcorper molestie pellentesque congue est. In laoreet dignissim quam eget tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin nec placerat eros. Duis vitae consequat mauris. Ut sagittis maximus dapibus. Suspendisse sollicitudin in dui id blandit. Cras interdum, ante in porta commodo, ligula urna tincidunt felis, eu congue sem velit ac lorem. Vestibulum blandit vehicula arcu molestie feugiat. Duis vitae erat tortor. Donec iaculis mi eget velit sagittis dictum. Etiam bibendum sagittis lorem sed tempor. Cras ut leo gravida, accumsan felis non, volutpat neque. Aliquam diam justo, molestie ut sapien id, tincidunt tristique ex. Mauris in finibus nulla.
+
+          Fusce fermentum faucibus diam vitae hendrerit. Aenean condimentum urna eu dapibus pulvinar. Sed sodales orci mi. Nunc maximus molestie sodales. Suspendisse id finibus ante. Cras sed elementum dui, in gravida magna. Duis blandit consequat ultrices. Pellentesque nec consequat libero, a vestibulum dolor. Mauris aliquet libero urna, ac semper nisl efficitur nec. Donec placerat, ex ac blandit efficitur, nisl nisl viverra dolor, rutrum blandit libero libero vel dolor. Integer pulvinar sed magna ut laoreet. Mauris luctus lacus sed diam convallis, efficitur malesuada orci tincidunt. Fusce sodales consectetur tortor in pretium. Aliquam nunc libero, dignissim vitae magna eget, volutpat tristique justo. Sed gravida porttitor ligula. Maecenas non nisl mattis metus facilisis ullamcorper. 
+        </p>
+      </div>
     </div>
   </div>
-  <div class="content col-md-2">
+  <div id="second" class="content item-2">
     <div class="box">
       <div class="title title-2">Beef</div>
-      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dolor a leo ullamcorper molestie pellentesque congue est. In laoreet dignissim quam eget tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin nec placerat eros. Duis vitae consequat mauris. Ut sagittis maximus dapibus. Suspendisse sollicitudin in dui id blandit. Cras interdum, ante in porta commodo, ligula urna tincidunt felis, eu congue sem velit ac lorem. Vestibulum blandit vehicula arcu molestie feugiat. Duis vitae erat tortor. Donec iaculis mi eget velit sagittis dictum. Etiam bibendum sagittis lorem sed tempor. Cras ut leo gravida, accumsan felis non, volutpat neque. Aliquam diam justo, molestie ut sapien id, tincidunt tristique ex. Mauris in finibus nulla.
+
+          Fusce fermentum faucibus diam vitae hendrerit. Aenean condimentum urna eu dapibus pulvinar. Sed sodales orci mi. Nunc maximus molestie sodales. Suspendisse id finibus ante. Cras sed elementum dui, in gravida magna. Duis blandit consequat ultrices. Pellentesque nec consequat libero, a vestibulum dolor. Mauris aliquet libero urna, ac semper nisl efficitur nec. Donec placerat, ex ac blandit efficitur, nisl nisl viverra dolor, rutrum blandit libero libero vel dolor. Integer pulvinar sed magna ut laoreet. Mauris luctus lacus sed diam convallis, efficitur malesuada orci tincidunt. Fusce sodales consectetur tortor in pretium. Aliquam nunc libero, dignissim vitae magna eget, volutpat tristique justo. Sed gravida porttitor ligula. Maecenas non nisl mattis metus facilisis ullamcorper. 
+        </p>
+      </div>
     </div>
   </div>
-  <div class="content col-md-3">
+  <div id="third" class="content item-3">
     <div class="box">
       <div class="title title-3">Sushi</div>
-      <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non dolor a leo ullamcorper molestie pellentesque congue est. In laoreet dignissim quam eget tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin nec placerat eros. Duis vitae consequat mauris. Ut sagittis maximus dapibus. Suspendisse sollicitudin in dui id blandit. Cras interdum, ante in porta commodo, ligula urna tincidunt felis, eu congue sem velit ac lorem. Vestibulum blandit vehicula arcu molestie feugiat. Duis vitae erat tortor. Donec iaculis mi eget velit sagittis dictum. Etiam bibendum sagittis lorem sed tempor. Cras ut leo gravida, accumsan felis non, volutpat neque. Aliquam diam justo, molestie ut sapien id, tincidunt tristique ex. Mauris in finibus nulla.
+
+          Fusce fermentum faucibus diam vitae hendrerit. Aenean condimentum urna eu dapibus pulvinar. Sed sodales orci mi. Nunc maximus molestie sodales. Suspendisse id finibus ante. Cras sed elementum dui, in gravida magna. Duis blandit consequat ultrices. Pellentesque nec consequat libero, a vestibulum dolor. Mauris aliquet libero urna, ac semper nisl efficitur nec. Donec placerat, ex ac blandit efficitur, nisl nisl viverra dolor, rutrum blandit libero libero vel dolor. Integer pulvinar sed magna ut laoreet. Mauris luctus lacus sed diam convallis, efficitur malesuada orci tincidunt. Fusce sodales consectetur tortor in pretium. Aliquam nunc libero, dignissim vitae magna eget, volutpat tristique justo. Sed gravida porttitor ligula. Maecenas non nisl mattis metus facilisis ullamcorper. 
+        </p>
+      </div>
     </div>
   </div>
   </div>
